@@ -9,7 +9,7 @@
 }
 
 html {
-  scroll-padding-top: 50px; /* Adjust based on your header height */
+  scroll-padding-top: 50px; 
 }
 body {
   height: 100%;
@@ -90,7 +90,7 @@ header {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.455); /* dark overlay */
+  background: rgba(0, 0, 0, 0.455); 
   z-index: 1;
 }
 #home {
@@ -100,7 +100,7 @@ header {
   padding-top: 100px;
 }
 #about {
-  padding-top: 60px; /* Ensure it's below the fixed header */
+  padding-top: 60px; 
   padding-bottom: 250px;
 }
 
@@ -163,11 +163,11 @@ header {
 #skills {
   padding: 80px 20px;
   display: flex;
-  justify-content: center; /* Centers the section horizontally */
-  align-items: center; /* Centers the section vertically */
-  flex-direction: column; /* Aligns content vertically */
-  text-align: center; /* Ensures text is aligned properly */
-  margin-bottom: 50px; /* Space after skills */
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  text-align: center; 
+  margin-bottom: 190px; 
 }
 
 /* List of Skills */
@@ -176,16 +176,15 @@ header {
 
   margin: 0;
   display: flex;
-  flex-direction: column; /* Stacks the skills vertically */
-  gap: 15px;
-  margin-bottom: 20px; /* Space between skill items */
+  flex-direction: column; 
+  margin-bottom: 20px; 
   transition: transform 0.3s ease;
   padding-bottom: 10px;
 }
 
-/* Hover effect to scale the skill items */
+
 .skill-item:hover {
-  transform: scale(1.2); /* Scales the item to 110% on hover */
+  transform: scale(1.2); 
   transition: transform 0.3s ease;
 }
 
@@ -193,21 +192,19 @@ header {
   display: flex;
   align-items: center;
   gap: 15px;
-  justify-content: center; /* Centers the skill items horizontally */
-  transition: transform 0.3s ease; /* Add smooth transition */
+  justify-content: center; 
+  transition: transform 0.3s ease;
 }
 .progress-bar-wrapper {
-  width: 300px; /* Fixed width to make bars visible */
+  width: 300px; 
   height: 20px;
   background-color: #aea3a3;
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease;
 }
-
-/* Increase progress bar width when hovering */
 .progress-bar-wrapper:hover .progress-bar {
-  transform: scale(1.1); /* Scales the progress bar wrapper */
+  transform: scale(1.2); 
 }
 
 .progress-bar {
@@ -222,22 +219,22 @@ header {
   font-weight: bold;
   font-size: 18px;
   gap: 50px;
-  transition: transform 0.3s ease; /* Add smooth scaling */
+  transition: transform 0.3s ease; 
 }
 
 .skill-item:hover {
-  transform: scale(1.5); /* Scales the skill name text */
+  transform: scale(1.5); 
 }
 
 #projects {
-  padding-top: 100px;
   justify-content: center;
 }
 
 .pro h3 {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  padding-top: 40px;
+  
   color: #207ba5;
 }
 /* Project Gallery */
@@ -317,12 +314,12 @@ header {
   background-color: #af230b;
 }
 
-/* Contact Icons */
+
 .icon {
   display: flex;
   gap: 50px;
-  justify-content: center; /* optional */
-  align-items: center; /* optional */
+  justify-content: center; 
+  align-items: center; 
 }
 .icon i {
   font-size: 2.4em;
@@ -346,14 +343,13 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #111; /* adjust to your theme */
+  background: #111; 
   color: white;
   text-align: center;
   padding: 15px 0;
-  z-index: 1000; /* ensures it stays on top */
-}
+  z-index: 1000; 
 
 .social-icons a:hover {
   transform: translateY(-5px);
 }
-/* Fade-in animation for sections */
+}
